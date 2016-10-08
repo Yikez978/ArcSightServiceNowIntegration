@@ -16,7 +16,7 @@ class emailout():
         logger = logging.getLogger('serviceNowInterface')
         emailInt = emailout()
         SMTPServerName = "localhost"
-        vfrom = "DL-DARTAnalysis@Company1.com"
+        vfrom = "DL-DARTAnalysis@[Company].com"
         varTemplateFolder = "/opt/arcsight/manager/archive/template/"
 
         if templatetype == "system":
@@ -57,7 +57,7 @@ class emailout():
             if "@" in vuserIdorEmail:
                 vemail = vuserIdorEmail
             elif vuserIdorEmail != "":
-                vemail = vuserIdorEmail + "@Company1.com"
+                vemail = vuserIdorEmail + "@[Company].com"
 
             # Pull Subject
             vsubject = emailInt.getTemplateInfo(templatetype, "subject") + incidentnum
@@ -70,7 +70,7 @@ class emailout():
 
         msg['Subject'] = vsubject
         msg['From'] = vfrom
-        vemail = "duy.tran@Company1.com"
+        vemail = "duy.tran@[Company].com"
         msg['To'] = vemail
         try:
             s = smtplib.SMTP(SMTPServerName)
@@ -83,21 +83,21 @@ class emailout():
             if templateitem == "subject":
                 return "Ticket for Machine Reimage has been created for you - "
             elif templateitem == "body":
-                return "Hello,\r\n \r\n By way of introduction, my name is Steven and I am member of Company1's Detection Analysis and Response Team.  Our role is to detect computer viruses, malware and other malicious activity on the Company1 network. \r\n \r\n Our team has identified malware on your system. A re-image of your system is required to rid the malware from your machine. \r\n \r\n A Help Desk ticket (listed above) has been created and routed to Field Support to coordinate your system re-image.  Please note, it is important for the reimage to take place in the timeliest manner possible. Prolonging the reimage places both your personal information and corporate data at risk.  Command-and-control botnet membership, credential theft, and fraud are the risks most commonly associated with malware. \r\n \r\nIf no action is taken, your system may be disconnected from the network. Thank you in advance for your prompt attention to this matter. \r\n \r\n Please let me know if you have any questions."
+                return "Hello,\r\n \r\n By way of introduction, my name is Steven and I am member of [Company]'s Detection Analysis and Response Team.  Our role is to detect computer viruses, malware and other malicious activity on the [Company] network. \r\n \r\n Our team has identified malware on your system. A re-image of your system is required to rid the malware from your machine. \r\n \r\n A Help Desk ticket (listed above) has been created and routed to Field Support to coordinate your system re-image.  Please note, it is important for the reimage to take place in the timeliest manner possible. Prolonging the reimage places both your personal information and corporate data at risk.  Command-and-control botnet membership, credential theft, and fraud are the risks most commonly associated with malware. \r\n \r\nIf no action is taken, your system may be disconnected from the network. Thank you in advance for your prompt attention to this matter. \r\n \r\n Please let me know if you have any questions."
             else:
                 return "False"
         elif templatetype == "scan":
             if templateitem == "subject":
                 return "Ticket for Machine Scan has been created for you - "
             elif templateitem == "body":
-                return "Hello, \r\n \r\n By way of introduction, my name is Steven and I am member of Company1's Detection Analysis and Response Team.  Our role is to detect computer viruses, malware, and other malicious activity on the Company1 network. \r\n \r\n Our team has identified your system as having connected to a site hosting malicious code that could have compromised your asset.  Due to the severity of this and that your system has connected to a potentially malicious site, a malware scan of your system is the ideal solution to this issue. \r\n \r\n To assist this process I have created the above ticket and routed to Enterprise Service Desk to coordinate with you for the scan of your system at your earliest availability.  It is important for the scan to take place in the timeliest manner possible.  Prolonging the scan places both your personal information and corporate data at risk.  If no action is taken, your system may be disconnected from the network.   Thank you in advance for your prompt attention to this matter. \r\n \r\n Please let me know if you have any questions."
+                return "Hello, \r\n \r\n By way of introduction, my name is Steven and I am member of [Company]'s Detection Analysis and Response Team.  Our role is to detect computer viruses, malware, and other malicious activity on the [Company] network. \r\n \r\n Our team has identified your system as having connected to a site hosting malicious code that could have compromised your asset.  Due to the severity of this and that your system has connected to a potentially malicious site, a malware scan of your system is the ideal solution to this issue. \r\n \r\n To assist this process I have created the above ticket and routed to Enterprise Service Desk to coordinate with you for the scan of your system at your earliest availability.  It is important for the scan to take place in the timeliest manner possible.  Prolonging the scan places both your personal information and corporate data at risk.  If no action is taken, your system may be disconnected from the network.   Thank you in advance for your prompt attention to this matter. \r\n \r\n Please let me know if you have any questions."
             else:
                 return "False"
         elif templatetype == "softwareremoval":
             if templateitem == "subject":
                 return "Ticket for Software Removal has been created for you - "
             elif templateitem == "body":
-                return "Hello,  \r\n \r\n By way of introduction, my name is Steven and I am member of Company1's Detection Analysis and Response Team.  Our role is to detect computer viruses, malware, unapproved software posing risk, and other malicious activity on the Company1 network.  \r\n \r\n Our team has identified that your system has downloaded unapproved software (please see the link to Company1 policy below).  The software will need to be removed and a malware scan of your system is required.  \r\n \r\n Please help us protect your information and the Company1 network by working with the desktop team to have your machine scanned in the timeliest manner possible.  Prolonging the scan places your personal information, customer data and Company1 proprietary data at risk. A ticket has been created on your behalf and routed to the Enterprise Service Desk to coordinate the removal of unapproved software and a malware scan of your system.   Unfortunately, if prompt action is not taken, your system may be disconnected from the network.   Thank you in advance for your attention to this matter.  \r\n \r\n Company1 Personal Computer Software Ownership and Usage Policy:  \r\n https://worknet.auth.wellpoint.com/resources/OT_Main/default/Intranet_Asset/PW_A061221.pdf  \r\n \r\n Please reference Section 3.2 Software Installation.  \r\n \r\n Please let me know if you have any questions."
+                return "Hello,  \r\n \r\n By way of introduction, my name is Steven and I am member of [Company]'s Detection Analysis and Response Team.  Our role is to detect computer viruses, malware, unapproved software posing risk, and other malicious activity on the [Company] network.  \r\n \r\n Our team has identified that your system has downloaded unapproved software (please see the link to [Company] policy below).  The software will need to be removed and a malware scan of your system is required.  \r\n \r\n Please help us protect your information and the [Company] network by working with the desktop team to have your machine scanned in the timeliest manner possible.  Prolonging the scan places your personal information, customer data and [Company] proprietary data at risk. A ticket has been created on your behalf and routed to the Enterprise Service Desk to coordinate the removal of unapproved software and a malware scan of your system.   Unfortunately, if prompt action is not taken, your system may be disconnected from the network.   Thank you in advance for your attention to this matter.  \r\n \r\n [Company] Personal Computer Software Ownership and Usage Policy:  \r\n https://worknet.auth.wellpoint.com/resources/OT_Main/default/Intranet_Asset/PW_A061221.pdf  \r\n \r\n Please reference Section 3.2 Software Installation.  \r\n \r\n Please let me know if you have any questions."
             else:
                 return "False"
         else:

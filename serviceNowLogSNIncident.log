@@ -1,0 +1,219 @@
+2015-11-04 16:50:05,535 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 16:50:05,535 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:50:05,535 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:50:05,535 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:50:05,535 - serviceNowInterface - Checking for files to process...
+2015-11-04 16:50:05,535 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,536 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,536 - serviceNowInterface - No ticket found in export file
+2015-11-04 16:50:05,536 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:50:05,536 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:50:05,536 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:50:05,536 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,537 - serviceNowInterface - File Recommended Action (used for templates): 0
+2015-11-04 16:50:05,537 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,538 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,538 - serviceNowInterface - Reading export file to process case name: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,538 - serviceNowInterface - No case name found in the file
+2015-11-04 16:50:05,538 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,539 - serviceNowInterface - No Recommended Action found in the file
+2015-11-04 16:50:05,539 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:50:05,539 - serviceNowInterface - Template found.  Assigned group: Field Support Services
+2015-11-04 16:50:05,539 - serviceNowInterface - Template ticket info, description: System ABCABC has been reaching out to malicious websites. Customer may not be aware of the issue. Please contact customer immediately to schedule a scan and removal of infection for this system using an approved malware removal tool. 
+ 
+Please take note of threats found and include in the closing comments. 
+ 
+ If this request is closed for any other reason than successful scan, please contact a member of the COMPANY team via dl-COMPANYanalysis. 
+ 
+  This ticket has been created on behalf of the listed requester by the COMPANY.  
+
+ [Company] Information Security Team Detection Analysis Response ArcSight case 2093
+2015-11-04 16:51:38,316 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 16:51:38,317 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:51:38,317 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:51:38,317 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:51:38,317 - serviceNowInterface - Checking for files to process...
+2015-11-04 16:51:38,317 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,318 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,318 - serviceNowInterface - No ticket found in export file
+2015-11-04 16:51:38,318 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:51:38,319 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:51:38,319 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:51:38,319 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,319 - serviceNowInterface - File Recommended Action (used for templates): 0
+2015-11-04 16:51:38,320 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,320 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,320 - serviceNowInterface - Reading export file to process case name: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,321 - serviceNowInterface - No case name found in the file
+2015-11-04 16:51:38,321 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,321 - serviceNowInterface - No Recommended Action found in the file
+2015-11-04 16:51:38,321 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml
+2015-11-04 16:51:38,322 - serviceNowInterface - Template found.  Assigned group: Field Support Services
+2015-11-04 16:51:38,322 - serviceNowInterface - Template ticket info, description: System ABCABC has been reaching out to malicious websites. Customer may not be aware of the issue. Please contact customer immediately to schedule a scan and removal of infection for this system using an approved malware removal tool. 
+ 
+Please take note of threats found and include in the closing comments. 
+ 
+ If this request is closed for any other reason than successful scan, please contact a member of the COMPANY team via dl-COMPANYanalysis. 
+ 
+  This ticket has been created on behalf of the listed requester by the COMPANY.  
+
+ [Company] Information Security Team Detection Analysis Response ArcSight case 2093
+2015-11-04 16:51:38,322 - serviceNowInterface - ****** Incident Created: 'INC123456' *****
+2015-11-04 16:51:38,322 - serviceNowInterface - 
+2015-11-04 16:51:38,370 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:51:38,370 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:51:38,370 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:51:38,374 - serviceNowInterface - Error sending out email.
+2015-11-04 16:51:38,374 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalSystem_11-2-2015_14-57-39.380.xml with new ServiceNow Incident Number
+2015-11-04 16:51:38,375 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:51:38,376 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/.xml
+2015-11-04 16:58:00,817 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 16:58:00,818 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:58:00,818 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:58:00,818 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:58:00,818 - serviceNowInterface - Checking for files to process...
+2015-11-04 16:58:00,818 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,818 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,819 - serviceNowInterface - No ticket found in export file
+2015-11-04 16:58:00,819 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:58:00,819 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:58:00,819 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:58:00,819 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,820 - serviceNowInterface - File Recommended Action (used for templates): 0
+2015-11-04 16:58:00,820 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,820 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,821 - serviceNowInterface - Reading export file to process case name: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,822 - serviceNowInterface - No case name found in the file
+2015-11-04 16:58:00,822 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,822 - serviceNowInterface - No Recommended Action found in the file
+2015-11-04 16:58:00,823 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml
+2015-11-04 16:58:00,823 - serviceNowInterface - Template found.  Assigned group: Field Support Services
+2015-11-04 16:58:00,823 - serviceNowInterface - Template ticket info, description: System ABCABC has been reaching out to malicious websites. Customer may not be aware of the issue. Please contact customer immediately to schedule a scan and removal of infection for this system using an approved malware removal tool. 
+ 
+Please take note of threats found and include in the closing comments. 
+ 
+ If this request is closed for any other reason than successful scan, please contact a member of the COMPANY team via dl-COMPANYanalysis. 
+ 
+  This ticket has been created on behalf of the listed requester by the COMPANY.  
+
+ [Company] Information Security Team Detection Analysis Response ArcSight case 2093
+2015-11-04 16:58:00,823 - serviceNowInterface - ****** Incident Created: "number': 'INC123456'" *****
+2015-11-04 16:58:00,823 - serviceNowInterface - 
+2015-11-04 16:58:00,866 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 16:58:00,866 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 16:58:00,866 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 16:58:00,869 - serviceNowInterface - Error sending out email.
+2015-11-04 16:58:00,870 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041651.xml with new ServiceNow Incident Number
+2015-11-04 16:58:00,871 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041658.xml
+2015-11-04 16:58:00,871 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/.xml
+2015-11-04 17:01:08,442 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 17:01:08,443 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 17:01:08,443 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 17:01:08,443 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 17:01:08,443 - serviceNowInterface - Checking for files to process...
+2015-11-04 17:01:08,444 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041658.xml
+2015-11-04 17:01:08,444 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041658.xml
+2015-11-04 17:01:08,444 - serviceNowInterface - No ticket found in export file
+2015-11-04 17:01:08,444 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041658.xml with new ServiceNow Incident Number
+2015-11-04 17:01:08,445 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041701.xml
+2015-11-04 17:01:08,446 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC123456.xml
+2015-11-04 17:05:49,017 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 17:05:49,018 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 17:05:49,018 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 17:05:49,018 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 17:05:49,018 - serviceNowInterface - Checking for files to process...
+2015-11-04 17:05:49,018 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041701.xml
+2015-11-04 17:05:49,018 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041701.xml
+2015-11-04 17:05:49,019 - serviceNowInterface - No ticket found in export file
+2015-11-04 17:05:49,019 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData-201511041701.xml with new ServiceNow Incident Number
+2015-11-04 17:05:49,020 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041705.xml
+2015-11-04 17:05:49,021 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC123456.xml
+2015-11-04 17:42:06,937 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 17:42:06,937 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 17:42:06,937 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 17:42:06,937 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 17:42:06,938 - serviceNowInterface - Checking for files to process...
+2015-11-04 17:42:06,938 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ERROR_11-4-2015_20-27-26.197.xml
+2015-11-04 17:42:06,938 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ERROR_11-4-2015_20-27-26.197.xml
+2015-11-04 17:42:06,938 - serviceNowInterface - Existing ticket number found in export file: INC0728918
+2015-11-04 17:42:06,939 - serviceNowInterface - Existing incident INC0728918.  Updating template file next.
+2015-11-04 17:42:06,939 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC0728918.xml
+2015-11-04 18:48:43,561 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 18:48:43,561 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 18:48:43,561 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 18:48:43,561 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 18:48:43,562 - serviceNowInterface - Checking for files to process...
+2015-11-04 18:48:43,562 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml
+2015-11-04 18:48:43,562 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml
+2015-11-04 18:48:43,563 - serviceNowInterface - No ticket found in export file
+2015-11-04 18:48:43,563 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml with new ServiceNow Incident Number
+2015-11-04 18:48:43,564 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041848.xml
+2015-11-04 18:48:43,566 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC123456.xml
+2015-11-04 19:02:18,509 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 19:02:18,510 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 19:02:18,510 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 19:02:18,510 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 19:02:18,511 - serviceNowInterface - Checking for files to process...
+2015-11-04 19:02:18,511 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml
+2015-11-04 19:02:18,511 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml
+2015-11-04 19:02:18,512 - serviceNowInterface - No ticket found in export file
+2015-11-04 19:02:18,512 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml with new ServiceNow Incident Number
+2015-11-04 19:02:18,514 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041902.xml
+2015-11-04 19:02:18,514 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC123456.xml
+2015-11-04 19:24:43,554 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 19:24:43,554 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 19:24:43,554 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 19:24:43,555 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 19:24:43,555 - serviceNowInterface - Checking for files to process...
+2015-11-04 19:24:43,555 - serviceNowInterface - ****** No files to process ******
+2015-11-04 19:24:58,154 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 19:24:58,154 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 19:24:58,154 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 19:24:58,154 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 19:24:58,154 - serviceNowInterface - Checking for files to process...
+2015-11-04 19:24:58,154 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml
+2015-11-04 19:24:58,155 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml
+2015-11-04 19:24:58,155 - serviceNowInterface - No ticket found in export file
+2015-11-04 19:24:58,155 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_21-1-27.905.xml with new ServiceNow Incident Number
+2015-11-04 19:24:58,157 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511041924.xml
+2015-11-04 19:24:58,157 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC123456.xml
+2015-11-04 20:22:15,850 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 20:22:15,850 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 20:22:15,850 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 20:22:15,850 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 20:22:15,851 - serviceNowInterface - Checking for files to process...
+2015-11-04 20:22:15,851 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,851 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,853 - serviceNowInterface - No ticket found in export file
+2015-11-04 20:22:15,853 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 20:22:15,853 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 20:22:15,853 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 20:22:15,853 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,855 - serviceNowInterface - File Recommended Action (used for templates): 0
+2015-11-04 20:22:15,855 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,855 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,856 - serviceNowInterface - Reading export file to process case name: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,896 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,897 - serviceNowInterface - No Recommended Action found in the file
+2015-11-04 20:22:15,897 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:15,898 - serviceNowInterface - Template found.  Assigned group: Field Support Services
+2015-11-04 20:22:15,898 - serviceNowInterface - Template ticket info, description: System ABCABCABCABCABCABC has been reaching out to malicious websites. Customer may not be aware of the issue. Please contact customer immediately to schedule a scan and removal of infection for this system using an approved malware removal tool. 
+ 
+Please take note of threats found and include in the closing comments. 
+ 
+ If this request is closed for any other reason than successful scan, please contact a member of the COMPANY team via dl-COMPANYanalysis. 
+ 
+  This ticket has been created on behalf of the listed requester by the COMPANY.  
+
+ [Company] Information Security Team Detection Analysis Response ArcSight case 211820902114
+2015-11-04 20:22:54,165 - serviceNowInterface - Started ServiceNow Interface
+2015-11-04 20:22:54,165 - serviceNowInterface - Working ArcSight export folder: /opt/arcsight/manager/archive/exports
+2015-11-04 20:22:54,165 - serviceNowInterface - Working ArcSight import folder: /opt/arcsight/manager/archive/imports
+2015-11-04 20:22:54,165 - serviceNowInterface - Working ArcSight import-export template folder: /opt/arcsight/manager/archive/template
+2015-11-04 20:22:54,165 - serviceNowInterface - Checking for files to process...
+2015-11-04 20:22:54,165 - serviceNowInterface - File identified for processing: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:54,165 - serviceNowInterface - Reading export file to process: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml
+2015-11-04 20:22:54,167 - serviceNowInterface - No ticket found in export file
+2015-11-04 20:22:54,168 - serviceNowInterface - Updated file: /opt/arcsight/manager/archive/exports/ExternalEventTrackingData_11-4-2015_23-19-31.257.xml with new ServiceNow Incident Number
+2015-11-04 20:22:54,207 - serviceNowInterface - Wrote update file with incident number to: /opt/arcsight/manager/archive/imports/ExternalEventTrackingData-201511042022.xml
+2015-11-04 20:22:54,208 - serviceNowInterface - Updated template folder: /opt/arcsight/manager/archive/template/INC123456.xml

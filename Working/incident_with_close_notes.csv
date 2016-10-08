@@ -1,0 +1,22 @@
+"number","caller_id","priority","incident_state","u_sub_status","assignment_group","assigned_to","short_description","sys_created_on","u_resolved","u_closed_date","close_notes","sys_created_by"
+"INC0641303","LAGMAY, MANNY","Priority 4","Closed","Cancelled","Field Support Services","CRAWFORD, ALICIA","[Company] Information Security Request - Please read full description below","2015-10-15 15:44:18","","2015-10-15"," Test","svcArcSight"
+"INC0641098","RICHARD, CONOR","Priority 4","Closed","Cancelled","ENTERPRISE_SERVICEDESK_ATS","","[Company] Information Security Request - Please read full description below","2015-10-15 15:12:08","","2015-10-15"," I don't wanna!","svcArcSight"
+"INC0624478","PARKER, FRANCIE","Priority 5","Closed","Permanently Resolved","Field Support Services","HUGHES, DARRYAL","[Company] Information Security Request - Please read full description below","2015-10-12 14:40:46","2015-10-14 10:24:52","2015-10-14","build a new computer","AC41045"
+"INC0599454","KILLEEN, DANIEL P","Priority 5","Closed","No User Response","ENTERPRISE_SERVICEDESK_ATS","BROCK, MICHAEL (TX)","machine (NBK-703991) has unauthorized software ""yousendit"" installed and needs to be scanned for possible malware","2015-10-06 22:08:36","2015-10-13 00:05:23","2015-10-13","Two attempts have been made to reach the requester over email and no response has been received. Hence, incident has been automatically closed by the system after 5 days"".","AD45279"
+"INC0591293","SONG, HYUNSOOK","Priority 5","Closed","Permanently Resolved","Field Support Services","SELENSKY, JOHN","[Company] Information Security Request - Please read full description below","2015-10-05 11:48:04","2015-10-05 16:36:51","2015-10-13","Ran Malware Scan and cleaned laptop.","AB15392"
+"INC0583407","ARZBERGER, JENNIFER","Priority 4","Closed","Permanently Resolved","Field Support Services","SOLANO, JESTON","[Company] Information Security Request - Please read full description below","2015-10-02 18:10:59","2015-10-06 18:15:10","2015-10-14","Re-imaged machine","AD57506"
+"INC0578917","LITTLE, SHAJADA","Priority 5","Closed","Working as Designed","Field Support Services","MEJIA, ROBERT J","Machine (dmxl4191sqj) needs to be reimaged.","2015-10-01 21:03:17","2015-10-07 11:26:38","2015-10-15","FST imaged computer and set left side monitor as primary.
+No further issues noted.","AD45279"
+"INC0575999","ALLEN, ANGELA K","Priority 5","Closed","No User Response","Field Support Services","TEMPLIN, BRIAN","[Company] Information Security Request - Please read full description below","2015-10-01 11:27:09","2015-10-13 00:08:18","2015-10-13","Two attempts have been made to reach the requester over email and no response has been received. Hence, incident has been automatically closed by the system after 5 days"".","AD84563"
+"INC0573182","SIMMONS, SADE","Priority 4","Closed","Permanently Resolved","ENTERPRISE_SERVICEDESK_ATS","JACOBS, JOHN-MICHAEL","[Company] Information Security Request - Please read full description below","2015-09-30 19:47:36","2015-10-07 19:02:12","2015-10-15","No malware found","AD57506"
+"INC0481218","MODINE, KIRSTEN L","Priority 5","Closed","Permanently Resolved","Field Support Services","DUNN, JONATHAN","Computer Infected by Malware REIMAGE","2015-09-08 15:31:59","2015-10-12 13:01:29","2015-10-15","FST explained this software will need to fill out a request to have thew software packaged so it could be deployed ouyt through SCCM 
+non-catalog
+""non-catalog software request""
+","AC41045"
+"INC0471106","PARUVELLA, ANAND","Priority 4","Closed","Permanently Resolved","ENTERPRISE_SERVICEDESK_ATS","MILLER, MICHAEL","Enterprise Service Desk ATS","2015-09-04 15:36:48","2015-10-05 15:45:29","2015-10-13","Malware scan completed successfully. The following threats were found and removed.
+PUM.Optional.WindowsToolDisabled
+PUM.Optional..WindowsToolDisabled
+PUM.Hijack.DisplayProperties
+PUM.Hijack.HomepageControl
+PUM.Hijack.Regedit
+PUM.Hijack.TaskManager","AD57506"

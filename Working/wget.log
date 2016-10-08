@@ -1,0 +1,13 @@
+﻿--2015-10-15 20:30:01--  https://company.service-now.com/incident.do?CSV&sysparm_query=subcategory=DART%5Eu_sub_statusANYTHING%5E%5Eassignment_group=563bbd7f0fce710039190bcce1050e02%5EORassignment_group=c1eea8110f427100ee194b9ce1050e5c%5Eu_closed_dateRELATIVEGE@dayofweek@ago@2
+Resolving company.service-now.com... 199.91.141.100
+Connecting to anthem.service-now.com|199.91.141.100|:443... connected.
+HTTP request sent, awaiting response... 401 Unauthorized
+Connecting to company.service-now.com|199.91.141.100|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 3951 (3.9K) [application/vnd.ms-excel]
+Saving to: “incident_with_close_notes.csv”
+
+     0K ...                                                   100% 52.2K=0.07s
+
+2015-10-15 20:30:07 (52.2 KB/s) - “incident_with_close_notes.csv” saved [3951/3951]
+

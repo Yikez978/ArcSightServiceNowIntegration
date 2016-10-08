@@ -9,7 +9,6 @@ class arcsightXMLParser():
     def prepFile(self, vfilname):
         varBadTicketFolder = "/opt/arcsight/manager/archive/template/badxml/"
         varExportFolder = "/opt/arcsight/manager/archive/exports/"
-        # from lxml import etree
 
         try:
             tree = ET.parse(vfilname)
@@ -40,10 +39,8 @@ class arcsightXMLParser():
             root2update = tree2update.getroot()
             cases = pullCaseNotesInfo(caselist.attrib['id'])
             if cases is not None:
-
-                today = datetime.datetime.today()
-
                 ntr = ET.Element('archive')
+                today = datetime.datetime.today()
                 ntr.set("buildTime", today.strftime('%m-%d-%Y_h:M:s'))
                 ntr.set("buildVersion", "6.8.0.1896.0")
                 ntr.set("createTime", today.strftime('%m-%d-%Y_h:M:s'))
@@ -63,16 +60,14 @@ class arcsightXMLParser():
                     if elem.attrib['id'] == caselist.attrib['id']:
                         ntr.append(elem)
 
-                # for elem in root2update.findall("./Note"):
-                #     if elem.attrib['id'] in cases:
-                #         ntr.append(elem)
+                for elem in root2update.findall("./Note"):
+                    if elem.attrib['id'] in cases:
+                        ntr.append(elem)
 
-                ra = "<?xml version=\"1.0\" encoding=\"UTF-8\"?> \r\n<!DOCTYPE archive SYSTEM \"../../schema/xml/archive/arcsight-archive.dtd\"> \r\n" + ET.tostring(ntr)
-                with open(varExportFolder + 'ExternalEventTrackingData-c' + caselist.attrib['id'] + '.xml', 'w') as f:
-                    f.write(ra)
+                # print ET.dump(ntr)
+                ra = "<?xml version=\"1.0\" encoding=\"UTF-8\"?> <!DOCTYPE archive SYSTEM \"../../schema/xml/archive/arcsight-archive.dtd\">" + ET.tostring(ntr)
 
-                # ra1 = etree.fromstring(ra)
-                # ri = ET.ElementTree(ra1)  # ET.tostring(ntr)  # ET.ElementTree(ET.fromstring(ra))
-                # ra1.write(varExportFolder + 'ExternalEventTrackingData-c' + caselist.attrib['id'] + '.xml', encoding='UTF-8', xml_declaration=True, doctype='<!DOCTYPE archive SYSTEM "../../schema/xml/archive/arcsight-archive.dtd">')
-
+                ra1 = ET.fromstring(ra)
+                ri = ET.ElementTree(ra1)
+                ri1 = ri.write(varExportFolder + 'ExternalEventTrackingData-c' + caselist.attrib['id'] + '.xml')
         os.remove(vfilname)

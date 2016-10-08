@@ -141,17 +141,14 @@ class arcsightInterface():
         logger = logging.getLogger('serviceNowInterface')
         logger.info("Reading export file to process: " + vFileName)
 
-        vreg = "<attackProtocol>.*\[(.*)\].*</attackProtocol>|<attackProtocol>.*\[(.*)\].*"
+        vreg = "<attackProtocol>.*\[(.*)\]</attackProtocol>|<attackProtocol>.*\[(.*)\].*"
         #vreg = "<attackProtocol>.*\[(.*)\]</attackProtocol>"
         vtext = open(vFileName).read()
         SoftwareName = re.findall(vreg, vtext)
 
         if SoftwareName:
-            try:
-                logger.debug("Found software name in the file: " + ''.join(SoftwareName))
-                return ''.join(SoftwareName)
-            except:
-                return "False"
+            logger.debug("Found software name in the file: " + ''.join(SoftwareName))
+            return ''.join(SoftwareName)
         else:
             logger.info("No Recommended Action found in the file")
             return "False"
@@ -271,10 +268,10 @@ class arcsightInterface():
         logger = logging.getLogger('serviceNowInterface')
         today = datetime.datetime.today()
         try:
-            shutil.copy(vFileName, varImportFolder + vFileName.rpartition("/")[2])
+            shutil.copy(vFileName, varImportFolder + "ExternalEventTrackingData-" +today.strftime('%Y%m%d%H%M') + ".xml")
         except Exception, e:
             logger.error("Error updating ESM imports folder: " + str(e))
-        logger.info("Wrote update file with incident number to: " + varImportFolder + vFileName.rpartition("\\")[2])
+        logger.info("Wrote update file with incident number to: " + varImportFolder + "ExternalEventTrackingData-" +today.strftime('%Y%m%d%H%M') + ".xml")
 
     def updateESMNew(self, vFileName, vcount):
         import logging
@@ -285,22 +282,9 @@ class arcsightInterface():
         today = datetime.datetime.today()
 
         try:
-            shutil.copy(vFileName, varImportFolder + vFileName.rpartition("/")[2])
+            shutil.copy(vFileName, varImportFolder + "ExternalEventTrackingData-c" + str(vcount) + today.strftime('%Y%m%d%H%M%s') + ".xml")
         except Exception, e:
             logger.error("Error updating ESM imports folder: " + str(e))
         logger.info("Wrote update file with incident number to: " + varImportFolder + "ExternalEventTrackingData-" +today.strftime('%Y%m%d%H%M') + ".xml")
 
-    def updateESMClosed(self, vFileName, vcount):
-        import logging
-        import shutil
-        import datetime
-        varImportFolder = "/opt/arcsight/manager/archive/imports/"
-        logger = logging.getLogger('serviceNowInterface')
-        today = datetime.datetime.today()
-
-        try:
-            shutil.copy(vFileName, varImportFolder + "ExternalEventTrackingData-" + today.strftime('%Y%m%d%H%M') + ".xml")
-        except Exception, e:
-            logger.error("Error updating ESM imports folder: " + str(e))
-        logger.info("Wrote update file with incident number to: " + varImportFolder + "/ExternalEventTrackingData-" + vcount + today.strftime('%Y%m%d%H%M') + ".xml")
 

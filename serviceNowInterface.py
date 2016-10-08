@@ -1,5 +1,5 @@
 #__author__ = 'Vosteen'
-# serviceNowInterface.py = defines the Company1 Service Now Creation templates
+# serviceNowInterface.py = defines the [Company] Service Now Creation templates
 # depending on the template, it creates an incident with the appropriate Title & Descriptions and assigns it to the rightful assignment group.
 #
 
@@ -14,9 +14,9 @@ class serviceNowInterface():
         if vattackProtocol == "0":
         #if vattackProtocol == "machine scan":
             if vTemplateField == "title":
-                return "Company1 Information Security Request - Please read full description below"
+                return "[Company] Information Security Request - Please read full description below"
             elif vTemplateField == "description":
-                return "System %s has been reaching out to malicious websites. Customer may not be aware of the issue. Please contact customer immediately to schedule a scan and removal of infection for this system using an approved malware removal tool. \r\n \r\nPlease take note of threats found and include in the closing comments. \r\n \r\n If this request is closed for any other reason than successful scan, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n  This ticket has been created on behalf of the listed requester by the DART.  \r\n\r\n Company1 Information Security Team Detection Analysis Response ArcSight case %s"
+                return "System %s has been reaching out to malicious websites. Customer may not be aware of the issue. Please contact customer immediately to schedule a scan and removal of infection for this system using an approved malware removal tool. \r\n \r\nPlease take note of threats found and include in the closing comments. \r\n \r\n If this request is closed for any other reason than successful scan, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n  This ticket has been created on behalf of the listed requester by the DART.  \r\n\r\n [Company] Information Security Team Detection Analysis Response ArcSight case %s"
             elif vTemplateField == "assignedgroup":
                 return "Field Support Services"
             else:
@@ -24,9 +24,9 @@ class serviceNowInterface():
         elif vattackProtocol == "1":
         #elif vattackProtocol == "machine reimage":
             if vTemplateField == "title":
-                return "Company1 Information Security Request - Please read full description below"
+                return "[Company] Information Security Request - Please read full description below"
             elif vTemplateField == "description":
-                return "Machine %s has been discovered to be infected with malware and is actively attempting to connect to external addresses to receive instructions. Due to the level of infection, this machine will be re-imaged to minimize continued risk to Company1. Customer may not be aware of issue. Please contact customer immediately to schedule a re-image for this system. \r\n \r\n Please ship/deploy a loaner system at the earliest available to minimize impact to the Associate. \r\n \r\n If backing up data, complete both malware and AV scans with approved tools before the backup, restore only what is needed. Do not restore temporary files, executables downloaded and any installation outside approved. \r\n \r\n If this request is closed for any other reason than successful re-image, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n This ticket has been created on behalf of the listed requester by the DART. \r\n \r\n Company1 Information Security Team Detection Analysis Response \r\n \r\n Detection Analysis Response Arcsight case %s"
+                return "Machine %s has been discovered to be infected with malware and is actively attempting to connect to external addresses to receive instructions. Due to the level of infection, this machine will be re-imaged to minimize continued risk to [Company]. Customer may not be aware of issue. Please contact customer immediately to schedule a re-image for this system. \r\n \r\n Please ship/deploy a loaner system at the earliest available to minimize impact to the Associate. \r\n \r\n If backing up data, complete both malware and AV scans with approved tools before the backup, restore only what is needed. Do not restore temporary files, executables downloaded and any installation outside approved. \r\n \r\n If this request is closed for any other reason than successful re-image, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n This ticket has been created on behalf of the listed requester by the DART. \r\n \r\n [Company] Information Security Team Detection Analysis Response \r\n \r\n Detection Analysis Response Arcsight case %s"
             elif vTemplateField == "assignedgroup":
                 return "ENTERPRISE_SERVICEDESK_ATS"
             else:
@@ -34,9 +34,9 @@ class serviceNowInterface():
         elif vattackProtocol == "2":
         #elif vattackProtocol == "unauthorized file sharing software removal":
             if vTemplateField == "title":
-                return "Company1 Information Security Request - Please read full description below"
+                return "[Company] Information Security Request - Please read full description below"
             elif vTemplateField == "description":
-                return "System %s was observed to have unauthorized software %s installed. This type of software is not authorized for installation on Company1 assets and could potentially be used for malicious purposes. Customer may not be aware of the issue. Please contact customer immediately to remove unauthorized software and scan for malware using an approved malware removal tool. \r\n \r\n Please take note of threats found and include in the closing comments. \r\n \r\n If this request is closed for any other reason than successful software removal and scan, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n This ticket has been created on behalf of the listed requester by the DART. Company1 Information Security Team \r\n \r\n Detection Analysis Response \r\n \r\n ArcSight case %s"
+                return "System %s was observed to have unauthorized software %s installed. This type of software is not authorized for installation on [Company] assets and could potentially be used for malicious purposes. Customer may not be aware of the issue. Please contact customer immediately to remove unauthorized software and scan for malware using an approved malware removal tool. \r\n \r\n Please take note of threats found and include in the closing comments. \r\n \r\n If this request is closed for any other reason than successful software removal and scan, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n This ticket has been created on behalf of the listed requester by the DART. [Company] Information Security Team \r\n \r\n Detection Analysis Response \r\n \r\n ArcSight case %s"
             elif vTemplateField == "assignedgroup":
                 return "ENTERPRISE_SERVICEDESK_ATS"
             else:
@@ -44,9 +44,9 @@ class serviceNowInterface():
         elif vattackProtocol == "3":
         #elif vattackProtocol == "unauthorized software installed":
             if vTemplateField == "title":
-                return "Company1 Information Security Request - Please read full description below"
+                return "[Company] Information Security Request - Please read full description below"
             elif vTemplateField == "description":
-                return "System %s was observed to have unauthorized software %s installed. This type of software is not authorized for installation on Company1 assets and could potentially be used for malicious purposes. Customer may not be aware of the issue. Please contact customer immediately to remove unauthorized software and scan for malware using an approved malware removal tool. \r\n \r\n Please take note of threats found and include in the closing comments. \r\n \r\n If this request is closed for any other reason than successful software removal and scan, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n This ticket has been created on behalf of the listed requester by the DART. Company1 Information Security Team \r\n \r\n Detection Analysis Response \r\n \r\n ArcSight case %s"
+                return "System %s was observed to have unauthorized software %s installed. This type of software is not authorized for installation on [Company] assets and could potentially be used for malicious purposes. Customer may not be aware of the issue. Please contact customer immediately to remove unauthorized software and scan for malware using an approved malware removal tool. \r\n \r\n Please take note of threats found and include in the closing comments. \r\n \r\n If this request is closed for any other reason than successful software removal and scan, please contact a member of the DART team via dl-dartanalysis. \r\n \r\n This ticket has been created on behalf of the listed requester by the DART. [Company] Information Security Team \r\n \r\n Detection Analysis Response \r\n \r\n ArcSight case %s"
             elif vTemplateField == "assignedgroup":
                 return "ENTERPRISE_SERVICEDESK_ATS"
             else:
@@ -59,11 +59,11 @@ class serviceNowInterface():
         from SOAPpy import SOAPProxy
 
         # instance to send to
-        instance = 'Company1prod'
+        instance = '[Company]prod'
 
         # username/password
         username = 'svcArcSight'
-        password = 'Company1@123'
+        password = '[Company]@123'
 
 
         # proxy - NOTE: ALWAYS use https://INSTANCE.service-now.com, not https://www.service-now.com/INSTANCE for web services URL from now on!

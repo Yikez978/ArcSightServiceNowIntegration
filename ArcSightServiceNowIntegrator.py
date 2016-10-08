@@ -21,7 +21,7 @@ ServiceNowProc = serviceNowInterface.serviceNowInterface()
 ASXMLParser = arcsightXMLParser.arcsightXMLParser()
 sysemail = emailout.emailout()
 
-#Checks for any files to process
+Checks for any files to process
 ListFiles2Proc = Files2Proc.checkFiles2Process()
 
 if ListFiles2Proc == "False":
@@ -29,7 +29,7 @@ if ListFiles2Proc == "False":
 else:
     if "||" in ListFiles2Proc:
         for fileName in ListFiles2Proc.split("||"):
-            ASXMLParser.prepFile(fileName)
+            ASXMLParser.prepFile(ListFiles2Proc)
     else:
         ASXMLParser.prepFile(ListFiles2Proc)
 
